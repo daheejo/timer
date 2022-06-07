@@ -1,0 +1,86 @@
+@charset 'utf-8';
+
+html {
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+}
+
+#app{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Pretendard Variable';
+}
+
+.tit-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url('weniv-logo.svg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100px;
+    max-width: 380px;
+}
+
+
+.timer-box {
+    width: 400px;
+    padding: 48px 58px;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    border-radius: 16px;
+}
+
+.timer-tit {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 75px;
+    border-bottom: 1px solid rgba(61, 83, 138, 1);
+    padding: 23px;
+}
+
+span {
+    background-image: url(Rectangle.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 16px;
+}
+.timer-dig{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    font-weight: 700;
+}
+
+button {
+    width: 112px;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    background-color: rgba(50, 69, 119, 1);
+    color: rgba(97, 113, 153, 1);
+}
+
+.reset-btn {
+    color: white;
+    /* background-color:rgba(251, 112, 153, 1); */
+    margin-left: 12px;
+    /* pointer-events: none; */
+}
+
+.start-btn {
+    color:white;
+    /* background-color: rgba(81, 128, 255, 1); */
+    /* pointer-events:none */
+}
+
+.second {
+    cursor: pointer;
+}
